@@ -1,11 +1,50 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Title of the document</title>
-</head>
-
-<body>
-The content of the document.....
-</body>
-
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" 
+          content="width=device-width,initial-scale=1.0"> 
+    <title>Iframe Aspect Ratio</title> 
+    <style> 
+        h2, 
+        h3 { 
+            text-align: center; 
+            font-size: 20px; 
+            color: green; 
+        } 
+  
+        .box { 
+            position: relative; 
+            width: 100%; 
+            overflow: hidden; 
+            padding-top: 66.66%; 
+        } 
+  
+        .iframe-element { 
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            bottom: 0; 
+            right: 0; 
+            width: 100%; 
+            height: 100%; 
+            border: none; 
+        } 
+    </style> 
+</head> 
+  
+<body> 
+    <h2>GeeksforGeeks</h2> 
+    <h3> 
+          Responsive Iframe 
+        Aspect Ratio 3:2 
+    </h3> 
+    <div class="box"> 
+        <iframe class="iframe-element" src= 
+"http://dolakorn.x10.bz"> 
+        </iframe> 
+    </div> 
+</body> 
+  
 </html>
